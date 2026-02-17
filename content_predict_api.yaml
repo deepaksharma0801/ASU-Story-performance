@@ -1,0 +1,64 @@
+openapi: 3.0.3
+info:
+  title: Content Performance Prediction API
+  version: 1.0.0
+  description: API for predicting digital content performance.
+servers:
+  - url: https://api.example.com
+paths:
+  /predict:
+    post:
+      summary: Predict content performance
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                publication_date:
+                  type: string
+                  format: date
+                sra:
+                  type: string
+                images:
+                  type: boolean
+                length:
+                  type: string
+                  enum: [Long, Short]
+                word_count:
+                  type: integer
+                title_url:
+                  type: string
+                  nullable: true
+              required: [publication_date, sra, images, length, word_count]
+      responses:
+        "200":
+          description: Prediction results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  predicted_metrics:
+                    type: object
+                  prediction_interval_low:
+                    type: number
+                  prediction_interval_high:
+                    type: number
+                  feature_contributions:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        feature:
+                          type: string
+                        contribution:
+                          type: number
+  /train:
+    post:
+      summary: Retrain model
+      description: Admin-only retraining endpoint.
+      responses:
+        "202":
+          description: Training started

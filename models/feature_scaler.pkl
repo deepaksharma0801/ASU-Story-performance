@@ -1,0 +1,1 @@
+Placeholder scaler/encoder artifact. Replace with serialized preprocessing pipeline.

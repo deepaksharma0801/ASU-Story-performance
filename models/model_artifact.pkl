@@ -1,0 +1,1 @@
+Placeholder model artifact. Replace with serialized model file.

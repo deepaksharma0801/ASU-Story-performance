@@ -1,0 +1,77 @@
+%PDF-1.4
+1 0 obj<</Type/Catalog/Pages 2 0 R>>endobj
+2 0 obj<</Type/Pages/Count 1/Kids[3 0 R]>>endobj
+3 0 obj<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Contents 4 0 R/Resources<</Font<</F1 5 0 R>>>>>>endobj
+4 0 obj<</Length 2205>>stream
+BT /F1 16 Tf 72 740 Td
+(Evidence Brief: Data-Driven Content Performance Prediction) Tj
+0 -24 Td /F1 11 Tf
+(External proof points from media + tech) Tj
+0 -14 Td
+0 -14 Td
+(1\) Peer-reviewed study \(Computers & Electrical Engineering, 2022\):) Tj
+0 -14 Td
+(   One-Class SVM + Autoencoder on UCI online news dataset achieved ~88% accuracy) Tj
+0 -14 Td
+(   for popularity prediction.) Tj
+0 -14 Td
+0 -14 Td
+(2\) Academic study \(Journal of Media Horizons, 2025\):) Tj
+0 -14 Td
+(   XGBoost achieved F1=0.697 and 69.8% accuracy on ~39k articles;) Tj
+0 -14 Td
+(   multimedia and weekend publication associated with higher popularity.) Tj
+0 -14 Td
+0 -14 Td
+(3\) Industry case study \(Taboola Newsroom\):) Tj
+0 -14 Td
+(   Headline A/B tests increased CTR by >44% on average; several tests >200%.) Tj
+0 -14 Td
+0 -14 Td
+(4\) Industry case study \(Refinery29 + Taboola Newsroom\):) Tj
+0 -14 Td
+(   Homepage CTR increased 45% per story on average; gains up to 200%.) Tj
+0 -14 Td
+0 -14 Td
+(5\) Streaming tech \(Netflix; Harvard D3\):) Tj
+0 -14 Td
+(   Netflix estimated ~75% of member viewing comes from recommendations.) Tj
+0 -14 Td
+0 -14 Td
+(Implication for ASU:) Tj
+0 -14 Td
+(Evidence shows measurable lifts from predictive modeling + content optimization) Tj
+0 -14 Td
+(in adjacent industries, supporting a pilot for ASU content planning.) Tj
+0 -14 Td
+0 -14 Td
+(Sources:) Tj
+0 -14 Td
+(- ScienceDirect \(2022\): https://www.sciencedirect.com/science/article/abs/pii/S0045790622004396) Tj
+0 -14 Td
+(- NYCU Academic Hub \(2022\): https://scholar.nycu.edu.tw/en/publications/predicting-online-news-popularity-based-on-machine-learning/) Tj
+0 -14 Td
+(- Journal of Media Horizons \(2025\): https://jmhorizons.com/index.php/journal/article/view/265) Tj
+0 -14 Td
+(- Taboola Newsroom case \(CTR +44% / 200%+\): https://www.taboola.com/marketing-hub/a-b-headline-tests-boost-homepage-article-ctr-by-44-for-german-sports-publisher/) Tj
+0 -14 Td
+(- Taboola Refinery29 case \(CTR +45% / 200%\): https://www.taboola.com/resources/case-studies/refinery29) Tj
+0 -14 Td
+(- Harvard D3 Netflix case \(75% from recs\): https://d3.harvard.edu/platform-digit/submission/netflix-bringing-data-analytics-to-a-creative-industry/) Tj
+0 -14 Td
+ET
+endstream endobj
+5 0 obj<</Type/Font/Subtype/Type1/BaseFont/Helvetica>>endobj
+xref
+0 6
+0000000000 65535 f 
+0000000000 00000 n 
+0000000009 00000 n 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000211 00000 n 
+0000000241 00000 n 
+trailer<</Size 6/Root 1 0 R>>
+startxref
+2525
+%%EOF
