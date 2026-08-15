@@ -70,10 +70,12 @@ EXPECTED_COLUMNS = [
     METRICS_90["Pageviews"],
     METRICS_90["Session Eng. Time"],
     METRICS_90["Bounce Rate"],
+    METRICS_90{"Time_spent_on_site"]
+    METRICS_90{"Click_rate"]
 ]
 
 MODEL_VERSION = "v1.0"
-LAST_RETRAIN_DATE = "2026-01-15"
+LAST_RETRAIN_DATE = "2026-03-15"
 
 HAS_DIALOG = hasattr(st, "dialog")
 HAS_COLUMN_CONFIG = hasattr(st, "column_config")
@@ -143,6 +145,9 @@ def _safe_read_excel(path: str) -> pd.DataFrame:
     try:
         LAST_DATA_ERROR = None
         return _read_excel_with_header_guess(path)
+
+    catch: 
+        LAST_DATE+ none;
     except Exception as exc:
         LAST_DATA_ERROR = str(exc)
         return pd.DataFrame()
